@@ -4,17 +4,19 @@ import { useRouter } from 'next/router';
 import appConfig from "../config.json";
 
 
-function Titulo(props) {
+function Title(props) {
   console.log(props);
-  const Tag = props.tag;
+  const Tag = props.tag || 'h1;  ';
   return (
     <>
       <Tag>{props.children}</Tag>
+
       <style jsx>{`
-        ${Tag} {
-          color: ${appConfig.theme.colors.neutrals["000"]};
+        ${Tag} {        
           font-size: 24px;
-          font-weight: 600;
+          font-family: 'inter', sans-serif;
+          font-weight: 400;
+          color: ${appConfig.theme.colors.neutrals["000"]};
         }
       `}</style>
     </>
@@ -27,7 +29,7 @@ function Titulo(props) {
 //   return (
 //     <div>
 //       <GlobalStyle />
-//       <Titulo tag="h2">Boas vindas de volta!</Titulo>
+//       <Title tag="h2">Boas vindas de volta!</Title>
 //       <h2>Discord - Alura Matrix</h2>
 //     </div>
 //   )
@@ -35,10 +37,11 @@ function Titulo(props) {
 
 //export default HomePage
 
-export default function PaginaInicial() {
+export default function HomePage() {
   //const username = 'pinalli';
   const [username, setUsername] = React.useState("pinalli");
   const roteamento = useRouter();
+  const [githubUser, setGithubUser] = React.useState("");
 
   return (
     <>
@@ -91,7 +94,7 @@ export default function PaginaInicial() {
               marginBottom: "32px",
             }}
           >
-            <Titulo tag="h2">Boas vindas de volta!</Titulo>
+            <Title tag="h2">Boas vindas de volta!</Title>
             <Text
               variant="body3"
               styleSheet={{
@@ -187,3 +190,5 @@ export default function PaginaInicial() {
     </>
   );
 }
+
+
