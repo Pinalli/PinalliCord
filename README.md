@@ -13,6 +13,6 @@
 ## 👨‍💻 Autor:
 - Linkedin: https://www.linkedin.com/in/alberto-rocha-pinalli/
 - Git: https://github.com/pinalli
-- Instagram: beto_pinalli
-- portfolio: PedrohvFernandes.github.io
+- Instagram: https://www.instagram.com/beto_pinalli/
+
 
