@@ -11,8 +11,8 @@
 - Supabase
 
 ## 👨‍💻 Autor:
-- Linkedin: https://www.linkedin.com/in/alberto-rocha-pinalli/
 - Git: https://github.com/pinalli
+- Linkedin: https://www.linkedin.com/in/alberto-rocha-pinalli/
 - Instagram: https://www.instagram.com/beto_pinalli/
 
 
