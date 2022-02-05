@@ -28,7 +28,7 @@
 
 ---
 ## Aplicação
-[Acesse o link](https://pinallidsmovie.netlify.app)<br>
+[Acesse o link](https://matrix-alura-cord.vercel.app)<br>
 
 ## 👨‍💻 Autor:
 - Git: https://github.com/pinalli
