@@ -26,6 +26,10 @@
 - Flexbox
 - Supabase
 
+---
+## Aplicação
+[Acesse o link](https://pinallidsmovie.netlify.app)<br>
+
 ## 👨‍💻 Autor:
 - Git: https://github.com/pinalli
 - Linkedin: https://www.linkedin.com/in/alberto-rocha-pinalli/
