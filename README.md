@@ -7,12 +7,10 @@
 </p>
 
 ### Feito com Next/React:
-### Tela inicial
-  
+
 
 ### Tela do chat 
- 
-### Demo 
+ ![cord](https://user-images.githubusercontent.com/18580532/189142602-9285fce8-0e21-4397-9caf-c33d970e2026.png)
 
 
 ## Tecnologias:
